@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+.titleart{
+    width: 800px;
+    max-width: 80%;
+    background-color:  yellowgreen;
+    padding: 10px;
+    white-space: pre;
+    font-family: monospace;
+    font-family: 'Courier Prime';
+}
+
+.storycontainer{
+    width: 800px;
+    max-width: 80%;
+    background-color:  yellowgreen;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.storytext{
+    font-size: large;
+    font-family: 'Courier Prime';
+    text-align: center;
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+.btngrid{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: yellowgreen;
+    border-bottom: 1.5px dashed hsl(0, 0%, 0%);
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-radius: 0px;
+    color: black;
+    outline: none;
+    text-align: left;
+    font-size: large;
+    font-family: 'Courier Prime';
+}
+
+.btn:hover {
+    border-color: black;
+    border-bottom: 1.5px solid black;
+    font-weight: 700;
+}
+
