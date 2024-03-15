@@ -19,7 +19,7 @@ function StartGame() {
 function SetTitleArt () {
 
 
-    fetch('/titleart.txt') // Replace '/foo.txt' with your actual file path
+    fetch('https://github.com/JanDrawc/CrookedAdventure/blob/main/titleart.txt') // Replace '/foo.txt' with your actual file path
         .then(response => response.text())
         .then(data => { var fileContents = data;console.log(fileContents); // Display the file contents
      });
